@@ -1,0 +1,37 @@
+article {
+    padding: 1rem;
+    color: #25113d;
+    background-color: #bf9ee5;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  time {
+    color: #3c2c50;
+  }
+  
+  .actions {
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.25rem;
+  }
+  
+  .actions button {
+    font: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color: #380774;
+    color: #decdf2;
+    border: none;
+    padding: 0.35rem 1.25rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #4a0774;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  }
